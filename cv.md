@@ -12,10 +12,11 @@ Tel: +7952 362 52 30
 ***
 ### Courses  
 - RS Schools «JavaScript/Front-end. Stage 0»  
+
 ***
 ### Languages  
 - English B1  
-- Russian Native
+- Russian Native  
 - Ukrainian Native
 ***  
 ### Skills  
