@@ -1,2 +1,10 @@
 h1{color: yellowgreen;
 }
+
+.ava{
+   border-radius: 50%;
+   border: tomato 1px solid;
+   width: 150px;
+   height: 150px; 
+
+}
