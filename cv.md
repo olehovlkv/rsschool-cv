@@ -10,4 +10,7 @@ My goal is getting knowledges and use my skills from field of construction (like
   
 ***
 ### Courses  
+- RS Schools «JavaScript/Front-end. Stage 0»  
+***
+### Languages  
 - 
