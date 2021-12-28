@@ -32,7 +32,6 @@ li {
 }
 
 
-
 .menu {
    display: flex;
     justify-content: space-evenly; 
@@ -44,4 +43,17 @@ li {
 }
 .title {
    max-width: 90%;
+}
+/*aside*/
+.photo {
+   width: 150px;
+   height: 150px;
+   border-radius: 100%;
+}
+.aside {
+   position: relative;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+
 }
