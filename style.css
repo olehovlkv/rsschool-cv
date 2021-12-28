@@ -24,6 +24,7 @@ li {
 }
 h2{
    text-transform: uppercase;
+   border-bottom: 1px solid;
 }
 .container{
    display: flex;
@@ -76,3 +77,32 @@ h2{
    line-height: 30px;
    font-size: 18px;
 }
+/*Education*/
+.main-education{
+   padding: 15px;
+   line-height: 30px;
+   font-size: 18px;
+}
+.education-list>li:first-child{
+   padding-bottom:20px ;}
+ .education-list{
+     /*  padding-left: 0;*/
+    }
+ .education-list>li::before{
+    position: absolute;
+    content: "";
+    border: 5px solid black;
+    top: 18%;
+    left: -28px;
+    border-radius: 75%;
+ }
+ .education-list >li{
+    position: relative;
+
+ }
+ .code-example{
+   padding: 15px;
+   line-height: 30px;
+   font-size: 18px;
+ }
+ 
