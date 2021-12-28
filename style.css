@@ -53,7 +53,12 @@ li {
 .aside {
    position: relative;
    display: flex;
-   align-items: flex-start;
+   align-items: center;
    flex-direction: column;
-
+   width: 390px;
+   background-color: wheat;
+   padding: 18px;
+}
+.contacts-link{
+   line-height: 30px
 }
