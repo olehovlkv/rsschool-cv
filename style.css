@@ -22,6 +22,9 @@ li {
    text-decoration: none;
    padding-right: 12px;
 }
+h1{
+   text-align: center;
+}
 h2{
    text-transform: uppercase;
    border-bottom: 1px solid;
@@ -35,7 +38,7 @@ h2{
    display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(143, 214, 143);
+    background-color: #30918B;
 }
 .subtitle{
    text-transform: uppercase;
@@ -63,15 +66,20 @@ h2{
    width: 150px;
    height: 150px;
    border-radius: 100%;
+   border:5px solid ghostwhite;
 }
 .aside {
    position: relative;
    display: flex;
-   align-items: center;
+   
    flex-direction: column;
-   width: 390px;
-   background-color: wheat;
+   
+   background-color: black;
    padding: 18px;
+   color: ghostwhite;
+}
+.skills-item{
+   line-height: 30px;
 }
 .contacts-link{
    line-height: 30px
@@ -87,6 +95,9 @@ h2{
    padding: 15px;
    line-height: 30px;
    font-size: 18px;
+}
+.info{
+   background-color: rgb(230,230,230);
 }
 .education-list>li:first-child{
    padding-bottom:20px ;}
@@ -132,7 +143,7 @@ h2{
   /*FOOTER*/
 
   .footer{
-     background-color: brown;
+     background-color:#34679D;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -152,5 +163,8 @@ h2{
 .footer-list img{width: 40%;}
 .footer-list a{
    text-decoration: none;
+   color: ghostwhite;
+}
+time{
    color: ghostwhite;
 }
