@@ -40,6 +40,11 @@ h2{
 .subtitle{
    text-transform: uppercase;
 }
+.menu a{
+   text-decoration: none;
+   color: ghostwhite;
+   text-transform: uppercase;
+}
 
 .menu {
    display: flex;
@@ -105,4 +110,47 @@ h2{
    line-height: 30px;
    font-size: 18px;
  }
- 
+/*LANG*/
+ .main-languages{
+   padding: 15px;
+   line-height: 30px;
+   font-size: 18px;
+ }
+ .lang>li::before{
+   position: absolute;
+   content: "";
+   border: 5px solid black;
+   left: -25px;
+    top: 31%;
+    border-radius: 75%;
+
+ }
+  .lang>li{
+     position: relative;
+  }
+
+  /*FOOTER*/
+
+  .footer{
+     background-color: brown;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+  }
+.footer-container{
+   width: 75%;
+
+
+}
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.footer-list img{width: 40%;}
+.footer-list a{
+   text-decoration: none;
+   color: ghostwhite;
+}
